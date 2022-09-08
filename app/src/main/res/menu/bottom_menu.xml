@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"
+        app:showAsAction="withText" />
+
+
+    <item
+        android:enabled="true"
+        android:id="@+id/menu_my_trips"
+        android:icon="@drawable/ic_baseline_local_shipping_24"
+        android:title="My Trips"
+        app:showAsAction="withText" />
+
+
+    <item
+
+        android:id="@+id/payment_menu"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_payment_24"
+        android:title="Payment"
+        app:showAsAction="withText" />
+
+    <item
+
+        android:id="@+id/doc_menu"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_file_copy_24"
+        android:title="Document"
+        app:showAsAction="withText" />
+</menu>
